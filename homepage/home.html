@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camelot | Instituto de Inglés — Campana</title>
+    <meta name="description"
+        content="Instituto Camelot. Formación en inglés con estándar británico para niños, adolescentes y adultos en Campana, Buenos Aires.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="../camelot logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- [01] NAVIGATION -->
+    <nav id="main-nav" aria-label="Navegación principal">
+        <div class="nav-container">
+
+
+            <ul class="nav-menu" id="nav-menu" role="list">
+                <li><a href="#institucion">Institución</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#viaje">Londres</a></li>
+                <li><a href="#material">Material</a></li>
+                <li><a href="#inscripcion">Inscribirse</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#inscripcion" class="cta-button-nav" id="nav-cta">Consultar</a>
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false"
+                    aria-controls="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <div class="mobile-menu-header">
+            <a href="#" class="logo-mobile">
+                <img src="../camelot logo.png" alt="Camelot Logo" class="nav-logo-img">
+            </a>
+        </div>
+        <ul>
+            <li><a href="#institucion" class="mobile-link">Institución</a></li>
+            <li><a href="#programas" class="mobile-link">Programas</a></li>
+            <li><a href="#viaje" class="mobile-link">Londres</a></li>
+            <li><a href="#material" class="mobile-link">Material</a></li>
+            <li><a href="#inscripcion" class="mobile-link">Inscribirse</a></li>
+        </ul>
+        <a href="#inscripcion" class="mobile-cta mobile-link">Consultar ahora</a>
+    </div>
+
+    <main>
+
+        <!-- [02] HERO — Institucional -->
+        <header id="institucion" class="hero-section">
+            <div class="hero-bg-media" aria-hidden="true">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="../mp_.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+                <div class="hero-grain"></div>
+            </div>
+
+            <div class="hero-content-container">
+                <p class="hero-eyebrow reveal-hero" aria-label="Ubicación" font="inter">Camelot English Institute</p>
+                <h1 class="reveal-hero delay-h1">La excelencia <span>británica</span><br>
+                    <c>desde el primer día</c>.
+                </h1>
+                <p class="hero-lead reveal-hero delay-lead">
+                    Una trayectoria académica sólida diseñada para vos.
+                </p>
+                <div class="hero-actions reveal-hero delay-cta">
+                    <a href="#programas" class="btn-primary-hero">Nuestra formación</a>
+                    <a href="#inscripcion" class="btn-ghost-hero">Comenzar ahora</a>
+                </div>
+            </div>
+
+            <div class="scroll-cue" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M10 4v12M4 10l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+        </header>
+
+        <!-- [03] SOCIAL PROOF — Números -->
+        <section class="proof-strip" aria-label="Números del instituto">
+            <div class="proof-inner">
+                <div class="proof-stat reveal">
+                    <span class="proof-num" data-target="14">0</span>
+                    <span class="proof-desc">años de trayectoria</span>
+                </div>
+                <div class="proof-divider" aria-hidden="true"></div>
+                <div class="proof-stat reveal delay-1">
+                    <span class="proof-num" data-target="200">0</span>
+                    <span class="proof-desc">alumnos formados</span>
+                </div>
+                <div class="proof-divider" aria-hidden="true"></div>
+                <div class="proof-stat reveal delay-2">
+                    <span class="proof-num" data-target="3">0</span>
+                    <span class="proof-desc">programas activos</span>
+                </div>
+                <div class="proof-divider" aria-hidden="true"></div>
+                <div class="proof-stat reveal delay-3">
+                    <span class="proof-num-label">100%</span>
+                    <span class="proof-desc">enfoque nativo</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- [04] PROGRAMS -->
+        <section id="programas" class="programs-section">
+            <div class="container">
+                <div class="section-intro reveal">
+                    <span class="eyebrow">Nuestra propuesta</span>
+                    <h2>Programas de formación integral</h2>
+                    <p class="section-lead">Tres caminos distintos. El mismo estándar.</p>
+                </div>
+
+                <div class="programs-grid">
+                    <article class="program-card reveal delay-1" id="program-kids">
+                        <span class="program-age">Ages 6 – 12</span>
+                        <h3>Kids &amp; Juniors</h3>
+                        <p>Construimos el idioma desde la curiosidad. Pronunciación nativa, escucha activa y confianza
+                            lingüística desde la primera infancia.</p>
+                        <a href="#inscripcion" class="card-cta">Consultar →</a>
+                    </article>
+
+                    <article class="program-card reveal delay-2" id="program-teens">
+                        <span class="program-age">Ages 13 – 17</span>
+                        <h3>Teens Program</h3>
+                        <p>Preparación para certificaciones internacionales y comunicación global. Para adolescentes que
+                            quieren hablar con autoridad, no con miedo.</p>
+                        <a href="#inscripcion" class="card-cta">Consultar →</a>
+                    </article>
+
+                    <article class="program-card reveal delay-3" id="program-adults">
+                        <span class="program-age">Adults &amp; Professionals</span>
+                        <h3>Adult Mastery</h3>
+                        <p>Inglés de alto rendimiento para entornos laborales exigentes. Fluidez, negociación y claridad
+                            en cada conversación.</p>
+                        <a href="#inscripcion" class="card-cta">Consultar →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- [05] BRIDGE — Viaje a Londres -->
+        <section id="viaje" class="bridge-section">
+            <div class="bridge-inner">
+                <div class="bridge-text reveal">
+                    <span class="eyebrow">Más allá del aula</span>
+                    <h2>El paso siguiente: Londres.</h2>
+                    <p>Para los alumnos que quieren llevar su inglés al límite, organizamos una inmersión de tres
+                        semanas en el corazón del Reino Unido. Clases, ciudad y conversaciones reales. Diseñado y
+                        acompañado por el equipo de Camelot.</p>
+                    <a href="../index.html" class="btn-bridge">Ver el programa →</a>
+                </div>
+                <div class="bridge-visual reveal delay-2" aria-hidden="true">
+                    <div class="bridge-card-float">
+                        <img src="../Big-Ben-PNG-Photos.webp" alt="Big Ben, Londres" class="bridge-img">
+                        <div class="bridge-card-label">
+                            <span>Londres</span>
+                            <span>3 semanas · 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- [06] MATERIAL GRATUITO -->
+        <section id="material" class="freemium-section">
+            <div class="container">
+                <div class="freemium-card reveal">
+                    <div class="freemium-text">
+                        <span class="eyebrow">Recurso gratuito</span>
+                        <h2>Guía de preparación para el viaje</h2>
+                        <p>Un material pensado por nuestro equipo con lo que necesitás saber antes de pisar Londres:
+                            documentación, tips de idioma, recomendaciones reales y un checklist completo.</p>
+                        <p class="freemium-note">Disponible sin costo para alumnos y no alumnos. Pedila directamente por
+                            WhatsApp.</p>
+                    </div>
+                    <div class="freemium-action">
+                        <!-- TODO: reemplazar con link de descarga directa cuando el PDF esté listo -->
+                        <a href="https://wa.me/XXXXXXXXXX?text=Hola%2C%20quiero%20la%20gu%C3%ADa%20de%20preparaci%C3%B3n%20para%20el%20viaje%20a%20Londres"
+                            class="btn-whatsapp" target="_blank" rel="noopener noreferrer" id="btn-material-wa">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            Pedir la guía por WhatsApp
+                        </a>
+                        <p class="freemium-disclaimer"><!-- placeholder hasta tener PDF --></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- [07] INSCRIPCIÓN — Formulario inline -->
+        <section id="inscripcion" class="enrollment-section">
+            <div class="container">
+                <div class="enrollment-grid">
+                    <div class="enrollment-info reveal">
+                        <span class="eyebrow">Primer paso</span>
+                        <h2>¿Querés empezar?</h2>
+                        <p>Completá el formulario. Te respondemos para coordinar una entrevista presencial en el
+                            instituto y evaluar el nivel de inglés sin costo.</p>
+                        <div class="enrollment-details">
+                            <div class="detail-item">
+                                <span class="detail-icon" aria-hidden="true">📍</span>
+                                <span>Balbín 956, Campana, Buenos Aires</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon" aria-hidden="true">✉️</span>
+                                <span>info@institutocamelot.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="enrollment-form reveal delay-2" id="enroll-form" novalidate
+                        aria-label="Formulario de inscripción">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="enroll-name">Nombre completo</label>
+                                <input type="text" id="enroll-name" name="nombre" placeholder="Tu nombre"
+                                    autocomplete="name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="enroll-email">Email</label>
+                                <input type="email" id="enroll-email" name="email" placeholder="tu@email.com"
+                                    autocomplete="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row two-col">
+                            <div class="form-group">
+                                <label for="enroll-age">Edad o rango</label>
+                                <select id="enroll-age" name="edad" required>
+                                    <option value="" disabled selected>Seleccioná</option>
+                                    <option value="6-12">6 – 12 años</option>
+                                    <option value="13-17">13 – 17 años</option>
+                                    <option value="18+">18 años o más</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="enroll-level">Nivel de inglés</label>
+                                <select id="enroll-level" name="nivel" required>
+                                    <option value="" disabled selected>Seleccioná</option>
+                                    <option value="basico">Básico / Sin nivel</option>
+                                    <option value="intermedio">Intermedio</option>
+                                    <option value="avanzado">Avanzado</option>
+                                    <option value="no-se">No sé</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="enroll-message">Mensaje (opcional)</label>
+                                <textarea id="enroll-message" name="mensaje"
+                                    placeholder="¿Algo específico que quieras contarnos?" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-submit" id="btn-submit">
+                            Enviar consulta
+                        </button>
+                        <p class="form-note">Sin compromiso. Respondemos dentro de las 24 hs.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- [08] FOOTER — Minimalista -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <a href="/" class="footer-logo" aria-label="Camelot Home">
+                    <img src="../camelot logo.png" alt="" class="footer-logo-img">
+                </a>
+                <nav class="footer-social" aria-label="Redes sociales">
+                    <!-- TODO: reemplazar hrefs con links reales -->
+                    <a href="#" class="social-link" aria-label="Instagram de Camelot" id="footer-ig">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <circle cx="12" cy="12" r="4" />
+                            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/XXXXXXXXXX" class="social-link" aria-label="WhatsApp de Camelot"
+                        id="footer-wa" target="_blank" rel="noopener noreferrer">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:info@institutocamelot.com" class="social-link" aria-label="Email de Camelot"
+                        id="footer-mail">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                        </svg>
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Instituto Camelot — Balbín 956, Campana, Buenos Aires.</p>
+                <p class="footer-credit">Desarrollado por <span>Agencia Delta</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
